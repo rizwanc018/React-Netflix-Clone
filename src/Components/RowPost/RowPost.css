@@ -1,4 +1,5 @@
 .row {
+    padding-top: 2rem;
     margin-left: 2.2rem;
     color: #fff;
 }
@@ -17,4 +18,10 @@
 .poster {
     max-height: 250px;
     margin-right: 10px;
+}
+
+.smallPoster {
+    max-height: 7rem;
+    margin-right: 10px;
+
 }
