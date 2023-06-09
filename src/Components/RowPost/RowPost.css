@@ -23,5 +23,12 @@
 .smallPoster {
     max-height: 7rem;
     margin-right: 10px;
+}
+.poster, .smallPoster {
+    cursor: pointer;
+    transition: transform 1s ;
+}
 
+.poster:hover, .smallPoster:hover {
+    transform: scale(1.2);
 }
